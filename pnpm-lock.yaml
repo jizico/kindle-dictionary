@@ -1,0 +1,32 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@wordlist/english-wiktionary':
+        specifier: ^1.0.1
+        version: 1.0.1
+      an-array-of-english-words:
+        specifier: ^2.0.0
+        version: 2.0.0
+
+packages:
+
+  '@wordlist/english-wiktionary@1.0.1':
+    resolution: {integrity: sha512-FQ/oMzqKFxl4Q2wskco7pd0qaFGP8S+8DzC0/E9qL7z/W9mNkqmp8ARN3jsoLDkjRTGOhlbAj/CsGRYVmdShvg==}
+    engines: {node: '>=18'}
+
+  an-array-of-english-words@2.0.0:
+    resolution: {integrity: sha512-FXnNvZSOI27kkKXeLSquhaTGP7z198UOQ4txaYO9fCfrjCh+D5SV7G7XqzEH0229+pAi4cjBEZ4WIQYgjKtO7Q==}
+    hasBin: true
+
+snapshots:
+
+  '@wordlist/english-wiktionary@1.0.1': {}
+
+  an-array-of-english-words@2.0.0: {}
