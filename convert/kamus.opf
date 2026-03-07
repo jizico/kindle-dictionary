@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package unique-identifier="uid">
+  <metadata>
+    <dc-metadata xmlns:dc="http://purl.org/metadata/dublin_core" xmlns:oebpackage="http://openebook.org/namespaces/oeb-package/1.0/">
+      <dc:Title>Kamus Inggris-Indonesia (Offline)</dc:Title>
+      <dc:Language>en</dc:Language>
+      <dc:Identifier id="uid">kamus_en_id_offline</dc:Identifier>
+    </dc-metadata>
+    <x-metadata>
+      <DictionaryInLanguage>en</DictionaryInLanguage>
+      <DictionaryOutLanguage>id</DictionaryOutLanguage>
+      <DefaultLookupIndex>english</DefaultLookupIndex>
+    </x-metadata>
+  </metadata>
+  <manifest>
+    <item id="dictionary0" href="kamus.html" media-type="text/x-oeb1-document"/>
+  </manifest>
+  <spine>
+    <itemref idref="dictionary0"/>
+  </spine>
+</package>
